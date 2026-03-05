@@ -2,13 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Briefcase } from "lucide-react";
 
 const experiences = [
-  {
-    title: "Personal de Limpieza",
-    company: "Quba, Café de Mar",
-    period: "Temp 2020/21", 
-    year: "2020",
-    description: "Mantenimiento y limpieza"
-  },
+  
   {
     title: "Camarero",
     company: "Santa, Restaurante", 
@@ -43,7 +37,14 @@ const experiences = [
     period: "Abr-Ago 2025",
     year: "2025",
     description: "Atención al cliente y manejo de caja"
-  }
+  },
+  {
+    title: "Encargado", 
+    company: "Santa, Restaurante",
+    period: "Temp 2025/26",
+    year: "2025",
+    description: "Responsable de coordinar y supervisar"
+  },
 ];
 
 export const ExperienceTimeline = () => {
